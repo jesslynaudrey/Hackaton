@@ -27,16 +27,15 @@
         android:src="@drawable/notification" />
 
     <TextView
+        android:id="@+id/hi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nav"
-        android:text="Hi, USER"
-        android:fontFamily="@font/intersemibold"
-        android:textSize="17dp"
-        android:textColor="@color/black"
         android:layout_marginLeft="35dp"
-        android:id="@+id/hi"
-        />
+        android:fontFamily="@font/intersemibold"
+        android:text="Hi, USER"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
 
     <TextView
         android:id="@+id/harapan"
